@@ -38,13 +38,19 @@ config.vm.synced_folder "C:/Sites/xenial-sites", "/var/www/vhosts"
 ```
 config.vm.synced_folder "~/Sites/xenial-sites", "/var/www/vhosts"
 ```
-### Running
 
+This directroy set up will mean anything you do in the `/var/www/vhosts/` directory on the Vagrant box, will be accessible from the `~/Sites/xenial-sites` directroy on your local machine, allowing you to edit things on the box directly using your editor of choice. 
+
+### Running
+* After the above setting up, navigate to the xenial-box directory and run
 ```
 $ vagrant up
 ```
-
-and you'll be good to go!
+* to start the box, and
+```
+$ vagrant ssh
+```
+* to ssh into it. 
 
 ## New Box Versions
 
