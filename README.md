@@ -4,7 +4,7 @@
 * Create a directory on your local system called `Vagrant`
 * Clone this box into that directory using
 ```
-$ git clone git clone https://github.com/TutorSense/xenial-box.git
+$ git clone https://github.com/TutorSense/xenial-box.git
 ```
 * Create another new directory on your local system called `Sites/xenial-sites`
 * On a windows system you should now have a directory structure looking like this:
