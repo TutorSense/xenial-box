@@ -1,5 +1,7 @@
 # xenial-box
 
+## Precondtions
+* Download and install Vagrant
 ## Setting Up
 * Create a directory on your local system called `Vagrant`
 * Clone this box into that directory using
